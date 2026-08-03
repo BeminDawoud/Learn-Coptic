@@ -1,140 +1,232 @@
 [
     {
-        "file": "الوصايا العشر لتعلم اللغة القبطية.jpg"
+        "file": "الوصايا العشر لتعلم اللغة القبطية.jpg",
+        "title": "الوصايا العشر لتعلم اللغة القبطية",
+        "videoLink": ""
     },
     {
-        "file": "مقدمة للغة القبطية.jpg"
+        "file": "مقدمة للغة القبطية.jpg",
+        "title": "مقدمة للغة القبطية",
+        "videoLink": ""
     },
     {
-        "file": "نطق الحروق القبطية 1.mp4"
+        "file": "نطق الحروق القبطية 1.mp4",
+        "title": "نطق الحروق القبطية 1",
+        "videoLink": "https://youtube.com/shorts/_8CmTTMdr8o"
     },
     {
-        "file": "نطق الحروف القبطية 2.mp4"
+        "file": "نطق الحروف القبطية 2.mp4",
+        "title": "نطق الحروف القبطية 2",
+        "videoLink": "https://youtube.com/shorts/PEBx0li79-4"
     },
     {
-        "file": "نطق الحروف القبطية - الحروف المتحركة.mp4"
+        "file": "نطق الحروف القبطية - الحروف المتحركة.mp4",
+        "title": "نطق الحروف القبطية - الحروف المتحركة",
+        "videoLink": "https://youtu.be/QNjDEfXFp6g"
     },
     {
-        "file": "نطق تدريب الأسماء 2.mp4"
+        "file": "نطق تدريب الأسماء 2.mp4",
+        "title": "نطق تدريب الأسماء 2",
+        "videoLink": "https://youtu.be/u2uxDYZY--M"
     },
     {
-        "file": "نطق الحروف القبطية 5.mp4"
+        "file": "نطق الحروف القبطية 5.mp4",
+        "title": "نطق الحروف القبطية 5",
+        "videoLink": "https://youtu.be/SFy7TY6g7MY"
     },
     {
-        "file": "نطق الحروف القبطية 6.mp4"
+        "file": "نطق الحروف القبطية 6.mp4",
+        "title": "نطق الحروف القبطية 6",
+        "videoLink": "https://youtu.be/gjIUwAM1Lcc"
     },
     {
-        "file": "حروف لها صوتان.mp4"
+        "file": "حروف لها صوتان.mp4",
+        "title": "حروف لها صوتان",
+        "videoLink": "https://youtube.com/shorts/R5wBifMMYu8"
     },
     {
-        "file": "حرف الكي.mp4"
+        "file": "حرف الكي.mp4",
+        "title": "حرف الكي",
+        "videoLink": "https://youtube.com/shorts/M-j39tYvtJs"
     },
     {
-        "file": "حرف الجنجا.mp4"
+        "file": "حرف الجنجا.mp4",
+        "title": "حرف الجنجا",
+        "videoLink": "https://youtube.com/shorts/akyj5IawvNg"
     },
     {
-        "file": "حرف الغما.mp4"
+        "file": "حرف الغما.mp4",
+        "title": "حرف الغما",
+        "videoLink": "https://youtube.com/shorts/7nkg28lquY8"
     },
     {
-        "file": "ملخص لقواعد نطق الحروف القبطية.mp4"
+        "file": "ملخص لقواعد نطق الحروف القبطية.mp4",
+        "title": "ملخص لقواعد نطق الحروف القبطية",
+        "videoLink": "https://youtu.be/34614MZRI40"
     },
     {
-        "file": "كيف نعرف الكلمات يونانية الأصل.jpg"
+        "file": "كيف نعرف الكلمات يونانية الأصل.jpg",
+        "title": "كيف نعرف الكلمات يونانية الأصل",
+        "videoLink": ""
     },
     {
-        "file": "التفريق بين الكلمات القبطي والكلمات اليونانية.mp4"
+        "file": "التفريق بين الكلمات القبطي والكلمات اليونانية.mp4",
+        "title": "التفريق بين الكلمات القبطي والكلمات اليونانية",
+        "videoLink": "https://youtu.be/JgAdtqpZ67o"
     },
     {
-        "file": "اثنا عشر قاعدة للكلمات اليونانية.mp4"
+        "file": "اثنا عشر قاعدة للكلمات اليونانية.mp4",
+        "title": "اثنا عشر قاعدة للكلمات اليونانية",
+        "videoLink": "https://youtu.be/b9_5OwxasZ0"
     },
     {
-        "file": "الضمائر الشخصية.jpg"
+        "file": "الضمائر الشخصية.jpg",
+        "title": "الضمائر الشخصية",
+        "videoLink": ""
     },
     {
-        "file": "أدوات النكرة.mp4"
+        "file": "أدوات النكرة.mp4",
+        "title": "أدوات النكرة",
+        "videoLink": "https://youtu.be/FER2OEgpmhw"
     },
     {
-        "file": "أدوات المعرفة للمفرد والجمع.mp4"
+        "file": "أدوات المعرفة للمفرد والجمع.mp4",
+        "title": "أدوات المعرفة للمفرد والجمع",
+        "videoLink": "https://youtu.be/4sgCgoby8_g"
     },
     {
-        "file": "أدوات المعرفة للمؤنث.mp4"
+        "file": "أدوات المعرفة للمؤنث.mp4",
+        "title": "أدوات المعرفة للمؤنث",
+        "videoLink": "https://youtu.be/rcs4zpGc0Lo"
     },
     {
-        "file": "المضاف وأدواته وأداة المعرفة للجمع.mp4"
+        "file": "المضاف وأدواته وأداة المعرفة للجمع.mp4",
+        "title": "المضاف وأدواته وأداة المعرفة للجمع",
+        "videoLink": "https://youtu.be/4wAfNmId0s8"
     },
     {
-        "file": "قواعد فرعية لأدوات النكرة والمعرفة.mp4"
+        "file": "قواعد فرعية لأدوات النكرة والمعرفة.mp4",
+        "title": "قواعد فرعية لأدوات النكرة والمعرفة",
+        "videoLink": "https://youtu.be/ERxmC4YqUQo"
     },
     {
-        "file": "حالات حذف أدوات النكرة والمعرفة.mp4"
+        "file": "حالات حذف أدوات النكرة والمعرفة.mp4",
+        "title": "حالات حذف أدوات النكرة والمعرفة",
+        "videoLink": "https://youtu.be/knaMtmmIC54"
     },
     {
-        "file": "نطق بعض الكلمات الصعبة.mp4"
+        "file": "نطق بعض الكلمات الصعبة.mp4",
+        "title": "نطق بعض الكلمات الصعبة",
+        "videoLink": "https://youtu.be/uDKPlrvt6nM"
     },
     {
-        "file": "كلمات تتغير عند جمعها.jpg"
+        "file": "كلمات تتغير عند جمعها.jpg",
+        "title": "كلمات تتغير عند جمعها",
+        "videoLink": ""
     },
     {
-        "file": "فعل الكينونة.mp4"
+        "file": "فعل الكينونة.mp4",
+        "title": "فعل الكينونة",
+        "videoLink": ""
     },
     {
-        "file": "تابع فعل الكينونة.mp4"
+        "file": "تابع فعل الكينونة.mp4",
+        "title": "تابع فعل الكينونة",
+        "videoLink": "https://youtu.be/TDg5a8tkfYQ"
     },
     {
-        "file": "كلمات مهمة.jpeg"
+        "file": "كلمات مهمة.jpeg",
+        "title": "كلمات مهمة",
+        "videoLink": ""
     },
     {
-        "file": "اختصارات مهمة.jpeg"
+        "file": "اختصارات مهمة.jpeg",
+        "title": "اختصارات مهمة",
+        "videoLink": ""
     },
     {
-        "file": "صفات الملكية.mp4"
+        "file": "صفات الملكية.mp4",
+        "title": "صفات الملكية",
+        "videoLink": "https://youtu.be/-wM5lYHk5Lc"
     },
     {
-        "file": "صفات الملكية للأسماء النكرة.mp4"
+        "file": "صفات الملكية للأسماء النكرة.mp4",
+        "title": "صفات الملكية للأسماء النكرة",
+        "videoLink": "https://youtu.be/sKqzASc2R7Y"
     },
     {
-        "file": "صفات الملكية الخاصة بأعضاء جسم الانسان.mp4"
+        "file": "صفات الملكية الخاصة بأعضاء جسم الانسان.mp4",
+        "title": "صفات الملكية الخاصة بأعضاء جسم الانسان",
+        "videoLink": "https://youtu.be/v7yRggWENlw"
     },
     {
-        "file": "ملخص صفات الملكية مع أعضاء جسم الانسان.jpeg"
+        "file": "ملخص صفات الملكية مع أعضاء جسم الانسان.jpeg",
+        "title": "ملخص صفات الملكية مع أعضاء جسم الانسان",
+        "videoLink": ""
     },
     {
-        "file": "أسماء الاشارة للقريب.mp4"
+        "file": "أسماء الاشارة للقريب.mp4",
+        "title": "أسماء الاشارة للقريب",
+        "videoLink": "https://youtu.be/jl-HQOcii2U"
     },
     {
-        "file": "حل امتحان القبطي 1.mp4"
+        "file": "حل امتحان القبطي 1.mp4",
+        "title": "حل امتحان القبطي 1",
+        "videoLink": "https://youtube.com/shorts/aiOdIYhcGus"
     },
     {
-        "file": "كلمات مهمة 1.jpeg"
+        "file": "كلمات مهمة 1.jpeg",
+        "title": "كلمات مهمة 1",
+        "videoLink": ""
     },
     {
-        "file": "أسماء الاشارة للبعيد.mp4"
+        "file": "أسماء الاشارة للبعيد.mp4",
+        "title": "أسماء الاشارة للبعيد",
+        "videoLink": "https://youtu.be/iZwzYuGdMU8"
     },
     {
-        "file": "حل امتحان القبطي 2.mp4"
+        "file": "حل امتحان القبطي 2.mp4",
+        "title": "حل امتحان القبطي 2",
+        "videoLink": "https://youtu.be/QUujOqW11gI"
     },
     {
-        "file": "زمن المضارع البسيط.mp4"
+        "file": "زمن المضارع البسيط.mp4",
+        "title": "زمن المضارع البسيط",
+        "videoLink": "https://youtu.be/TfqXbzM2IRY"
     },
     {
-        "file": "أفعال مهمة.jpeg"
+        "file": "أفعال مهمة.jpeg",
+        "title": "أفعال مهمة",
+        "videoLink": ""
     },
     {
-        "file": "زمن المستقبل الأول.mp4"
+        "file": "زمن المستقبل الأول.mp4",
+        "title": "زمن المستقبل الأول",
+        "videoLink": "https://youtu.be/iHzpSf6tBDo"
     },
     {
-        "file": "زمن الماضي التام.mp4"
+        "file": "زمن الماضي التام.mp4",
+        "title": "زمن الماضي التام",
+        "videoLink": "https://youtu.be/v_ng0yxJFzQ"
     },
     {
-        "file": "الأزمنة ونفيها مع الفعل يسبح.jpeg"
+        "file": "الأزمنة ونفيها مع الفعل يسبح.jpeg",
+        "title": "الأزمنة ونفيها مع الفعل يسبح",
+        "videoLink": ""
     },
     {
-        "file": "أفعال الحواس.jpeg"
+        "file": "أفعال الحواس.jpeg",
+        "title": "أفعال الحواس",
+        "videoLink": ""
     },
     {
-        "file": "علامة الفاعل والمفعول.mp4"
+        "file": "علامة الفاعل والمفعول.mp4",
+        "title": "علامة الفاعل والمفعول",
+        "videoLink": "https://youtu.be/KBTlvWiw_PI"
     },
     {
-        "file": "زمن المضارع العادة.mp4"
+        "file": "زمن المضارع العادة.mp4",
+        "title": "زمن المضارع العادة",
+        "videoLink": "https://youtu.be/me6me1x3SuQ"
     }
 ]

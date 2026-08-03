@@ -479,3 +479,34 @@ footer{
     }
 
 }
+
+
+.video-preview{
+
+    background:#111;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.play-icon{
+
+    font-size:70px;
+
+    color:white;
+
+    opacity:.85;
+
+    transition:.3s;
+
+}
+
+.lesson-card:hover .play-icon{
+
+    transform:scale(1.15);
+
+}

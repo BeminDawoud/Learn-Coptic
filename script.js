@@ -84,25 +84,19 @@ function renderLessons(list) {
                 <div class="preview">
                     <img
                         src="data/${lesson.file}"
-                        alt="${getTitle(lesson.file)}">
+                        alt="${lesson.title}">
                 </div>
             `;
     } else {
       preview = `
-                <div class="preview">
+        <div class="preview video-preview">
 
-                    <video
-                        muted
-                        preload="metadata">
+            <div class="play-icon">
+                ▶
+            </div>
 
-                        <source
-                            src="data/${lesson.file}"
-                            type="video/mp4">
-
-                    </video>
-
-                </div>
-            `;
+        </div>
+    `;
     }
 
     card.innerHTML = `
@@ -113,7 +107,7 @@ function renderLessons(list) {
 
                 <div class="lesson-title">
 
-                    ${getTitle(lesson.file)}
+                    ${lesson.title}
 
                 </div>
 
@@ -138,36 +132,73 @@ function renderLessons(list) {
 }
 
 /*==================================================
+    Get YouTube Embed Link
+==================================================*/
+
+function getEmbedLink(url) {
+  if (!url) return "";
+
+  // https://youtu.be/VIDEO_ID
+  if (url.includes("youtu.be/")) {
+    const id = url.split("youtu.be/")[1].split("?")[0];
+    return `https://www.youtube.com/embed/${id}`;
+  }
+
+  // https://youtube.com/shorts/VIDEO_ID
+  if (url.includes("/shorts/")) {
+    const id = url.split("/shorts/")[1].split("?")[0];
+    return `https://www.youtube.com/embed/${id}`;
+  }
+
+  // https://www.youtube.com/watch?v=VIDEO_ID
+  if (url.includes("watch?v=")) {
+    const id = url.split("watch?v=")[1].split("&")[0];
+    return `https://www.youtube.com/embed/${id}`;
+  }
+
+  return url;
+}
+
+/*==================================================
     Open Lesson
 ==================================================*/
 
 function openLesson(lesson) {
   viewer.classList.remove("hidden");
 
-  viewerTitle.textContent = getTitle(lesson.file);
+  viewerTitle.textContent = lesson.title;
 
   viewerBody.innerHTML = "";
 
-  const type = getFileType(lesson.file);
+  const extension = lesson.file.split(".").pop().toLowerCase();
 
-  if (type === "image") {
+  if (["jpg", "jpeg", "png", "webp", "gif"].includes(extension)) {
     const img = document.createElement("img");
 
     img.src = `data/${lesson.file}`;
 
+    img.alt = lesson.title;
+
     viewerBody.appendChild(img);
   } else {
-    const video = document.createElement("video");
+    const iframe = document.createElement("iframe");
 
-    video.src = `data/${lesson.file}`;
+    iframe.src = getEmbedLink(lesson.videoLink);
 
-    video.controls = true;
+    iframe.width = "100%";
 
-    video.autoplay = true;
+    iframe.height = "600";
 
-    video.style.width = "100%";
+    iframe.allowFullscreen = true;
 
-    viewerBody.appendChild(video);
+    iframe.allow =
+      "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+
+    iframe.style.border = "none";
+
+    iframe.style.borderRadius = "15px";
+
+    viewerBody.appendChild(iframe);
   }
 }
 /*==================================================
@@ -219,7 +250,7 @@ searchBox.addEventListener("input", function () {
   const text = this.value.trim().toLowerCase();
 
   filteredLessons = lessons.filter((lesson) =>
-    getTitle(lesson.file).toLowerCase().includes(text),
+    lesson.title.toLowerCase().includes(text),
   );
 
   renderLessons(filteredLessons);
