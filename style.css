@@ -626,3 +626,258 @@ footer{
     transform:scale(1.15);
 
 }
+
+/*==================================================
+    SIDE MENU
+==================================================*/
+
+#menuButton {
+
+    position: fixed;
+
+    top: 20px;
+
+    left: 20px;
+
+    z-index: 1000;
+
+    background: #00695c;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 30px;
+
+    padding: 12px 20px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,.25);
+
+    transition: .3s;
+
+}
+
+#menuButton:hover{
+
+    transform: translateY(-2px);
+
+    background:#00796b;
+
+}
+
+
+
+/*==================================================
+    OVERLAY
+==================================================*/
+
+#menuOverlay{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.45);
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:.3s;
+
+    z-index:999;
+
+}
+
+#menuOverlay.show{
+
+    opacity:1;
+
+    visibility:visible;
+
+}
+
+
+
+/*==================================================
+    SIDE MENU
+==================================================*/
+
+#sideMenu{
+
+    position:fixed;
+
+    top:0;
+
+    left:-320px;
+
+    width:300px;
+
+    height:100vh;
+
+    background:white;
+
+    box-shadow:5px 0 25px rgba(0,0,0,.15);
+
+    transition:.35s;
+
+    z-index:1001;
+
+    overflow-y:auto;
+
+}
+
+#sideMenu.open{
+
+    left:0;
+
+}
+
+
+
+/*==================================================
+    MENU HEADER
+==================================================*/
+
+.menu-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px;
+
+    border-bottom:1px solid #ddd;
+
+    background:#00695c;
+
+    color:white;
+
+}
+
+.menu-header h3{
+
+    margin:0;
+
+}
+
+#closeMenu{
+
+    background:none;
+
+    border:none;
+
+    color:white;
+
+    font-size:26px;
+
+    cursor:pointer;
+
+}
+
+
+
+/*==================================================
+    MENU ITEMS
+==================================================*/
+
+#menuItems{
+
+    padding:15px;
+
+}
+
+.menu-item{
+
+    width:100%;
+
+    text-align:right;
+
+    padding:12px 15px;
+
+    margin-bottom:10px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#f5f5f5;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.25s;
+
+}
+
+.menu-item:hover{
+
+    background:#00695c;
+
+    color:white;
+
+}
+
+
+
+/*==================================================
+    SECTION TITLES
+==================================================*/
+
+.section-title{
+
+    font-size:32px;
+
+    font-weight:bold;
+
+    margin-top:50px;
+
+    margin-bottom:25px;
+
+    color:#00695c;
+
+    border-bottom:3px solid #00695c;
+
+    padding-bottom:10px;
+
+}
+
+
+
+/*==================================================
+    MOBILE
+==================================================*/
+
+@media(max-width:700px){
+
+    #menuButton{
+
+        top:15px;
+
+        left:15px;
+
+        padding:10px 16px;
+
+        font-size:15px;
+
+    }
+
+    #sideMenu{
+
+        width:260px;
+
+        left:-280px;
+
+    }
+
+}
+

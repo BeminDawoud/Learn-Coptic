@@ -13,6 +13,20 @@ const closeViewer = document.getElementById("closeViewer");
 
 const scrollTopBtn = document.getElementById("scrollTopBtn");
 
+/*==================================================
+    Side Menu
+==================================================*/
+
+const menuButton = document.getElementById("menuButton");
+
+const sideMenu = document.getElementById("sideMenu");
+
+const menuItems = document.getElementById("menuItems");
+
+const closeMenu = document.getElementById("closeMenu");
+
+const menuOverlay = document.getElementById("menuOverlay");
+
 let lessons = [];
 let filteredLessons = [];
 let currentIndex = -1;
@@ -28,6 +42,7 @@ async function loadLessons() {
     lessons = await response.json();
 
     filteredLessons = [...lessons];
+    buildMenu(filteredLessons);
 
     renderLessons(filteredLessons);
   } catch (error) {
@@ -98,11 +113,88 @@ function getThumbnail(url) {
 }
 
 /*==================================================
+    Build Sections Menu
+==================================================*/
+
+function buildMenu(list) {
+  menuItems.innerHTML = "";
+
+  const sections = [];
+
+  list.forEach((lesson) => {
+    if (!sections.includes(lesson.section)) {
+      sections.push(lesson.section);
+    }
+  });
+
+  sections.forEach((section) => {
+    const button = document.createElement("button");
+
+    button.className = "menu-item";
+
+    button.textContent = section;
+
+    button.addEventListener("click", () => {
+      closeSideMenu();
+
+      const target = document.getElementById(sectionToId(section));
+
+      if (target) {
+        target.scrollIntoView({
+          behavior: "smooth",
+
+          block: "start",
+        });
+      }
+    });
+
+    menuItems.appendChild(button);
+  });
+}
+
+/*==================================================
+    Section ID
+==================================================*/
+
+function sectionToId(section) {
+  return (
+    "section-" +
+    section.replace(/\s+/g, "-").replace(/[^\u0600-\u06FFa-zA-Z0-9-]/g, "")
+  );
+}
+
+/*==================================================
+    Open Menu
+==================================================*/
+
+function openSideMenu() {
+  sideMenu.classList.add("open");
+
+  menuOverlay.classList.add("show");
+}
+
+/*==================================================
+    Close Menu
+==================================================*/
+
+function closeSideMenu() {
+  sideMenu.classList.remove("open");
+
+  menuOverlay.classList.remove("show");
+}
+
+/*==================================================
+    Create Cards
+==================================================*/
+
+/*==================================================
     Create Cards
 ==================================================*/
 
 function renderLessons(list) {
   lessonContainer.innerHTML = "";
+
+  const renderedSections = [];
 
   list.forEach((lesson, index) => {
     const type = getFileType(lesson.file);
@@ -125,44 +217,53 @@ function renderLessons(list) {
       default:
         typeText = "";
     }
+
     const card = document.createElement("div");
 
     card.className = "lesson-card";
+
+    /* Give the FIRST lesson of every section an id */
+
+    if (!renderedSections.includes(lesson.section)) {
+      renderedSections.push(lesson.section);
+
+      card.id = sectionToId(lesson.section);
+    }
 
     let preview = "";
 
     if (type === "image") {
       preview = `
-        <div class="preview">
-            <img
-                src="data/${lesson.file}"
-                alt="${lesson.title}">
-        </div>
-    `;
+                <div class="preview">
+                    <img
+                        src="data/${lesson.file}"
+                        alt="${lesson.title}">
+                </div>
+            `;
     } else if (type === "video") {
       preview = `
-        <div class="preview video-preview">
+                <div class="preview video-preview">
 
-            <img
-                src="${getThumbnail(lesson.videoLink)}"
-                alt="${lesson.title}">
+                    <img
+                        src="${getThumbnail(lesson.videoLink)}"
+                        alt="${lesson.title}">
 
-            <div class="play-overlay">
-                ▶
-            </div>
+                    <div class="play-overlay">
+                        ▶
+                    </div>
 
-        </div>
-    `;
+                </div>
+            `;
     } else if (type === "practice") {
       preview = `
-        <div class="preview practice-preview">
+                <div class="preview practice-preview">
 
-            <div class="practice-icon">
-                💻
-            </div>
+                    <div class="practice-icon">
+                        💻
+                    </div>
 
-        </div>
-    `;
+                </div>
+            `;
     }
 
     card.innerHTML = `
@@ -323,6 +424,8 @@ searchBox.addEventListener("input", function () {
     lesson.title.toLowerCase().includes(text),
   );
 
+  buildMenu(filteredLessons);
+
   renderLessons(filteredLessons);
 });
 
@@ -381,5 +484,15 @@ scrollTopBtn.addEventListener("click", function () {
 /*==================================================
     Start Website
 ==================================================*/
+
+/*==================================================
+    Side Menu
+==================================================*/
+
+menuButton.addEventListener("click", openSideMenu);
+
+closeMenu.addEventListener("click", closeSideMenu);
+
+menuOverlay.addEventListener("click", closeSideMenu);
 
 loadLessons();
