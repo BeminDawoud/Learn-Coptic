@@ -1,0 +1,481 @@
+/* ==========================================================
+   Learn Coptic
+   style.css
+========================================================== */
+
+/* ---------- Coptic Font ---------- */
+
+@font-face {
+    font-family: "Coptic";
+    src: url("fonts/Coptic Font.ttf") format("truetype");
+}
+
+/* ---------- Variables ---------- */
+
+:root {
+
+    --bg: #111827;
+    --card: #1f2937;
+    --card-hover: #2d3d53;
+
+    --gold: #d4af37;
+
+    --text: #f8fafc;
+    --muted: #cbd5e1;
+
+    --border: rgba(255,255,255,.08);
+
+    --shadow:
+        0 12px 30px rgba(0,0,0,.35);
+
+    --radius: 18px;
+
+}
+
+/* ---------- Reset ---------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:"Cairo",sans-serif;
+
+    background:var(--bg);
+
+    color:var(--text);
+
+    direction:rtl;
+
+    min-height:100vh;
+
+}
+
+/* ---------- Header ---------- */
+
+header{
+
+    text-align:center;
+
+    padding:40px 20px;
+
+    border-bottom:1px solid var(--border);
+
+}
+
+header h1{
+
+    font-size:3rem;
+
+    color:var(--gold);
+
+    margin-bottom:10px;
+
+}
+
+.subtitle{
+
+    color:var(--muted);
+
+    font-size:1.2rem;
+
+}
+
+/* ---------- Search ---------- */
+
+.search-section{
+
+    max-width:900px;
+
+    margin:30px auto;
+
+    padding:0 20px;
+
+}
+
+#searchBox{
+
+    width:100%;
+
+    padding:18px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:15px;
+
+    background:#1c2737;
+
+    color:white;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+#searchBox:focus{
+
+    box-shadow:0 0 0 3px rgba(212,175,55,.4);
+
+}
+
+/* ---------- Lessons ---------- */
+
+#lessonContainer{
+
+    max-width:1100px;
+
+    margin:auto;
+
+    padding:20px;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:25px;
+
+}
+
+/* ---------- Lesson Card ---------- */
+
+.lesson-card{
+
+    background:var(--card);
+
+    border-radius:var(--radius);
+
+    overflow:hidden;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    border:1px solid var(--border);
+
+    box-shadow:var(--shadow);
+
+}
+
+.lesson-card:hover{
+
+    transform:translateY(-8px);
+
+    background:var(--card-hover);
+
+}
+
+/* ---------- Preview ---------- */
+
+.preview{
+
+    width:100%;
+
+    height:210px;
+
+    background:#000;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    overflow:hidden;
+
+}
+
+.preview img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+.preview video{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    pointer-events:none;
+
+}
+
+/* ---------- Lesson Info ---------- */
+
+.lesson-info{
+
+    padding:18px;
+
+}
+
+.lesson-title{
+
+    font-size:20px;
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+    line-height:1.6;
+
+}
+
+.lesson-type{
+
+    display:inline-block;
+
+    padding:6px 14px;
+
+    border-radius:999px;
+
+    background:rgba(212,175,55,.15);
+
+    color:var(--gold);
+
+    font-size:14px;
+
+    font-weight:bold;
+
+}
+
+/* ---------- Modal ---------- */
+
+#viewer{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.85);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:30px;
+
+    z-index:999;
+
+}
+
+.hidden{
+
+    display:none !important;
+
+}
+
+.viewer-content{
+
+    width:min(1000px,100%);
+
+    max-height:90vh;
+
+    overflow:auto;
+
+    background:#182231;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    position:relative;
+
+    animation:popup .25s ease;
+
+}
+
+@keyframes popup{
+
+    from{
+
+        opacity:0;
+
+        transform:scale(.95);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+}
+
+#viewerTitle{
+
+    text-align:center;
+
+    color:var(--gold);
+
+    margin-bottom:20px;
+
+    line-height:1.7;
+
+}
+
+/* ---------- Modal Media ---------- */
+
+#viewerBody img{
+
+    width:100%;
+
+    border-radius:15px;
+
+}
+
+#viewerBody video{
+
+    width:100%;
+
+    border-radius:15px;
+
+}
+
+/* ---------- Close Button ---------- */
+
+#closeViewer{
+
+    position:absolute;
+
+    top:15px;
+
+    left:15px;
+
+    width:45px;
+
+    height:45px;
+
+    border:none;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    background:#d32f2f;
+
+    color:white;
+
+    font-size:20px;
+
+    transition:.3s;
+
+}
+
+#closeViewer:hover{
+
+    transform:rotate(90deg);
+
+}
+
+/* ---------- Scroll Button ---------- */
+
+#scrollTopBtn{
+
+    position:fixed;
+
+    bottom:30px;
+
+    left:30px;
+
+    width:55px;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    background:var(--gold);
+
+    color:black;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    display:none;
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+}
+
+#scrollTopBtn:hover{
+
+    transform:translateY(-5px);
+
+}
+
+/* ---------- Footer ---------- */
+
+footer{
+
+    text-align:center;
+
+    padding:40px;
+
+    color:var(--muted);
+
+}
+
+/* ---------- Responsive ---------- */
+
+@media(max-width:768px){
+
+    header h1{
+
+        font-size:2.2rem;
+
+    }
+
+    .subtitle{
+
+        font-size:1rem;
+
+    }
+
+    #lessonContainer{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .preview{
+
+        height:190px;
+
+    }
+
+    .lesson-title{
+
+        font-size:18px;
+
+    }
+
+}
