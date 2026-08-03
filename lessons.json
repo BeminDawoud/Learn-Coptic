@@ -1,253 +1,307 @@
 [
     {
         "file": "الوصايا العشر لتعلم اللغة القبطية.jpg",
-        "title": "الوصايا العشر لتعلم اللغة القبطية"
+        "title": "الوصايا العشر لتعلم اللغة القبطية",
+        "section": "مقدمة"
     },
     {
         "file": "مقدمة للغة القبطية.jpg",
-        "title": "مقدمة للغة القبطية"
+        "title": "مقدمة للغة القبطية",
+        "section": "مقدمة"
     },
     {
         "file": "نطق الحروق القبطية 1.mp4",
         "title": "نطق الحروق القبطية 1",
-        "videoLink": "https://youtube.com/shorts/_8CmTTMdr8o"
+        "videoLink": "https://youtube.com/shorts/_8CmTTMdr8o",
+        "section": "نطق الحروف القبطية"
     },
     {
         "file": "نطق الحروف القبطية 2.mp4",
         "title": "نطق الحروف القبطية 2",
-        "videoLink": "https://youtube.com/shorts/PEBx0li79-4"
+        "videoLink": "https://youtube.com/shorts/PEBx0li79-4",
+        "section": "نطق الحروف القبطية"
     },
     {
         "file": "نطق الحروف القبطية - الحروف المتحركة.mp4",
         "title": "نطق الحروف القبطية - الحروف المتحركة",
-        "videoLink": "https://youtu.be/QNjDEfXFp6g"
+        "videoLink": "https://youtu.be/QNjDEfXFp6g",
+        "section": "نطق الحروف القبطية"
     },
     {
         "file": "نطق الأسامي 1.mp4",
         "title": "تدريب نطق الأسامي 1",
-        "videoLink": "https://youtu.be/2B7mxqxiLao"
+        "videoLink": "https://youtu.be/2B7mxqxiLao",
+        "section": "نطق الحروف القبطية"
     },
     {
         "file": "نطق تدريب الأسماء 2.mp4",
         "title": "نطق تدريب الأسماء 2",
-        "videoLink": "https://youtu.be/u2uxDYZY--M"
+        "videoLink": "https://youtu.be/u2uxDYZY--M",
+        "section": "نطق الحروف القبطية"
     },
     {
         "file": "نطق الحروف القبطية 5.mp4",
         "title": "نطق الحروف القبطية 5",
-        "videoLink": "https://youtu.be/SFy7TY6g7MY"
+        "videoLink": "https://youtu.be/SFy7TY6g7MY",
+        "section": "نطق الحروف القبطية"
     },
     {
         "file": "نطق الحروف القبطية 6.mp4",
         "title": "نطق الحروف القبطية 6",
-        "videoLink": "https://youtu.be/gjIUwAM1Lcc"
+        "videoLink": "https://youtu.be/gjIUwAM1Lcc",
+        "section": "نطق الحروف القبطية"
     },
     {
         "file": "حروف لها صوتان.mp4",
         "title": "حروف لها صوتان",
-        "videoLink": "https://youtube.com/shorts/R5wBifMMYu8"
+        "videoLink": "https://youtube.com/shorts/R5wBifMMYu8",
+        "section": "نطق الحروف القبطية"
     },
     {
         "file": "حرف الكي.mp4",
         "title": "حرف الكي",
-        "videoLink": "https://youtube.com/shorts/M-j39tYvtJs"
+        "videoLink": "https://youtube.com/shorts/M-j39tYvtJs",
+        "section": "نطق الحروف القبطية"
     },
     {
         "file": "حرف الجنجا.mp4",
         "title": "حرف الجنجا",
-        "videoLink": "https://youtube.com/shorts/akyj5IawvNg"
+        "videoLink": "https://youtube.com/shorts/akyj5IawvNg",
+        "section": "نطق الحروف القبطية"
     },
     {
         "file": "حرف الغما.mp4",
         "title": "حرف الغما",
-        "videoLink": "https://youtube.com/shorts/7nkg28lquY8"
+        "videoLink": "https://youtube.com/shorts/7nkg28lquY8",
+        "section": "نطق الحروف القبطية"
     },
     {
         "file": "ملخص لقواعد نطق الحروف القبطية.mp4",
         "title": "ملخص لقواعد نطق الحروف القبطية",
-        "videoLink": "https://youtu.be/34614MZRI40"
+        "videoLink": "https://youtu.be/34614MZRI40",
+        "section": "نطق الحروف القبطية"
     },
     {
         "file": "كيف نعرف الكلمات يونانية الأصل.jpg",
-        "title": "كيف نعرف الكلمات يونانية الأصل"
+        "title": "كيف نعرف الكلمات يونانية الأصل",
+        "section": "الأصل (قبطي / يوناني)"
     },
     {
         "file": "التفريق بين الكلمات القبطي والكلمات اليونانية.mp4",
         "title": "التفريق بين الكلمات القبطي والكلمات اليونانية",
-        "videoLink": "https://youtu.be/JgAdtqpZ67o"
+        "videoLink": "https://youtu.be/JgAdtqpZ67o",
+        "section": "الأصل (قبطي / يوناني)"
     },
     {
         "file": "اثنا عشر قاعدة للكلمات اليونانية.mp4",
         "title": "اثنا عشر قاعدة للكلمات اليونانية",
-        "videoLink": "https://youtu.be/b9_5OwxasZ0"
+        "videoLink": "https://youtu.be/b9_5OwxasZ0",
+        "section": "الأصل (قبطي / يوناني)"
     },
     {
         "file": "الضمائر الشخصية.jpg",
-        "title": "الضمائر الشخصية"
+        "title": "الضمائر الشخصية",
+        "section": "الضمائر الشخصية"
     },
     {
         "file": "أدوات النكرة.mp4",
         "title": "أدوات النكرة",
-        "videoLink": "https://youtu.be/FER2OEgpmhw"
+        "videoLink": "https://youtu.be/FER2OEgpmhw",
+        "section": "أدوات النكرة والمعرفة"
     },
     {
         "file": "أدوات المعرفة للمفرد والجمع.mp4",
         "title": "أدوات المعرفة للمفرد والجمع",
-        "videoLink": "https://youtu.be/4sgCgoby8_g"
+        "videoLink": "https://youtu.be/4sgCgoby8_g",
+        "section": "أدوات النكرة والمعرفة"
     },
     {
         "file": "أدوات المعرفة للمؤنث.mp4",
         "title": "أدوات المعرفة للمؤنث",
-        "videoLink": "https://youtu.be/rcs4zpGc0Lo"
+        "videoLink": "https://youtu.be/rcs4zpGc0Lo",
+        "section": "أدوات النكرة والمعرفة"
     },
     {
         "file": "المضاف وأدواته وأداة المعرفة للجمع.mp4",
         "title": "المضاف وأدواته وأداة المعرفة للجمع",
-        "videoLink": "https://youtu.be/4wAfNmId0s8"
+        "videoLink": "https://youtu.be/4wAfNmId0s8",
+        "section": "أدوات النكرة والمعرفة"
     },
     {
         "file": "قواعد فرعية لأدوات النكرة والمعرفة.mp4",
         "title": "قواعد فرعية لأدوات النكرة والمعرفة",
-        "videoLink": "https://youtu.be/ERxmC4YqUQo"
+        "videoLink": "https://youtu.be/ERxmC4YqUQo",
+        "section": "أدوات النكرة والمعرفة"
     },
     {
         "file": "حالات حذف أدوات النكرة والمعرفة.mp4",
         "title": "حالات حذف أدوات النكرة والمعرفة",
-        "videoLink": "https://youtu.be/knaMtmmIC54"
+        "videoLink": "https://youtu.be/knaMtmmIC54",
+        "section": "أدوات النكرة والمعرفة"
     },
     {
         "file": "نطق بعض الكلمات الصعبة.mp4",
         "title": "نطق بعض الكلمات الصعبة",
-        "videoLink": "https://youtu.be/uDKPlrvt6nM"
+        "videoLink": "https://youtu.be/uDKPlrvt6nM",
+        "section": "أدوات النكرة والمعرفة"
     },
     {
         "file": "كلمات تتغير عند جمعها.jpg",
-        "title": "كلمات تتغير عند جمعها"
+        "title": "كلمات تتغير عند جمعها",
+        "section": "أدوات النكرة والمعرفة"
     },
     {
         "file": "فعل الكينونة.mp4",
         "title": "فعل الكينونة",
-        "videoLink": "https://youtu.be/TDg5a8tkfYQ"
+        "videoLink": "https://youtu.be/TDg5a8tkfYQ",
+        "section": "فعل الكينونة"
     },
     {
         "file": "تابع فعل الكينونة.mp4",
         "title": "تابع فعل الكينونة",
-        "videoLink": "https://youtu.be/TDg5a8tkfYQ"
+        "videoLink": "https://youtu.be/TDg5a8tkfYQ",
+        "section": "فعل الكينونة"
     },
     {
         "file": "كلمات مهمة 1.jpeg",
-        "title": "كلمات مهمة"
+        "title": "كلمات مهمة",
+        "section": "فعل الكينونة"
     },
     {
         "file": "اختصارات مهمة.jpeg",
-        "title": "اختصارات مهمة"
+        "title": "اختصارات مهمة",
+        "section": "فعل الكينونة"
     },
     {
         "file": "صفات الملكية.mp4",
         "title": "صفات الملكية",
-        "videoLink": "https://youtu.be/-wM5lYHk5Lc"
+        "videoLink": "https://youtu.be/-wM5lYHk5Lc",
+        "section": " الصفات "
     },
     {
         "file": "صفات الملكية للأسماء النكرة.mp4",
         "title": "صفات الملكية للأسماء النكرة",
-        "videoLink": "https://youtu.be/sKqzASc2R7Y"
+        "videoLink": "https://youtu.be/sKqzASc2R7Y",
+        "section": " صفات الملكية "
     },
     {
         "file": "صفات الملكية الخاصة بأعضاء جسم الانسان.mp4",
         "title": "صفات الملكية الخاصة بأعضاء جسم الانسان",
-        "videoLink": "https://youtu.be/v7yRggWENlw"
+        "videoLink": "https://youtu.be/v7yRggWENlw",
+        "section": " صفات الملكية "
     },
     {
         "file": "ملخص صفات الملكية مع أعضاء جسم الانسان.jpeg",
-        "title": "ملخص صفات الملكية مع أعضاء جسم الانسان"
+        "title": "ملخص صفات الملكية مع أعضاء جسم الانسان",
+        "section": " صفات الملكية "
     },
     {
         "file": "أسماء الاشارة للقريب.mp4",
         "title": "أسماء الاشارة للقريب",
-        "videoLink": "https://youtu.be/jl-HQOcii2U"
+        "videoLink": "https://youtu.be/jl-HQOcii2U",
+        "section": "أسماء الاشارة"
     },
     {
         "file": "حل امتحان القبطي 1.mp4",
         "title": "حل امتحان القبطي 1",
-        "videoLink": "https://youtube.com/shorts/aiOdIYhcGus"
+        "videoLink": "https://youtube.com/shorts/aiOdIYhcGus",
+        "section": "أسماء الاشارة"
     },
     {
         "file": "كلمات مهمة.jpeg",
-        "title": "كلمات مهمة 2"
+        "title": "كلمات مهمة 2",
+        "section": "أسماء الاشارة"
     },
     {
         "file": "أسماء الاشارة للبعيد.mp4",
         "title": "أسماء الاشارة للبعيد",
-        "videoLink": "https://youtu.be/iZwzYuGdMU8"
+        "videoLink": "https://youtu.be/iZwzYuGdMU8",
+        "section": "أسماء الاشارة"
     },
     {
         "file": "حل امتحان القبطي 2.mp4",
         "title": "حل امتحان القبطي 2",
-        "videoLink": "https://youtu.be/QUujOqW11gI"
+        "videoLink": "https://youtu.be/QUujOqW11gI",
+        "section": "أسماء الاشارة"
     },
     {
         "file": "زمن المضارع البسيط.mp4",
         "title": "زمن المضارع البسيط",
-        "videoLink": "https://youtu.be/TfqXbzM2IRY"
+        "videoLink": "https://youtu.be/TfqXbzM2IRY",
+        "section": "الأزمنة"
     },
     {
         "file": "أفعال مهمة.jpeg",
-        "title": "أفعال مهمة"
+        "title": "أفعال مهمة",
+        "section": "الأزمنة"
     },
     {
         "file": "زمن المستقبل الأول.mp4",
         "title": "زمن المستقبل الأول",
-        "videoLink": "https://youtu.be/iHzpSf6tBDo"
+        "videoLink": "https://youtu.be/iHzpSf6tBDo",
+        "section": "الأزمنة"
     },
     {
         "file": "زمن الماضي التام.mp4",
         "title": "زمن الماضي التام",
-        "videoLink": "https://youtu.be/v_ng0yxJFzQ"
+        "videoLink": "https://youtu.be/v_ng0yxJFzQ",
+        "section": "الأزمنة"
     },
     {
         "file": "الأزمنة ونفيها مع الفعل يسبح.jpeg",
-        "title": "الأزمنة ونفيها مع الفعل يسبح"
+        "title": "الأزمنة ونفيها مع الفعل يسبح",
+        "section": "الأزمنة"
     },
     {
         "file": "أفعال الحواس.jpeg",
-        "title": "أفعال الحواس"
+        "title": "أفعال الحواس",
+        "section": "الأزمنة"
     },
     {
         "file": "علامة الفاعل والمفعول.mp4",
         "title": "علامة الفاعل والمفعول",
-        "videoLink": "https://youtu.be/KBTlvWiw_PI"
+        "videoLink": "https://youtu.be/KBTlvWiw_PI",
+        "section": "الأزمنة"
     },
     {
         "file": "تدريب على أدوات المفعول.html",
-        "title": "تدريب على أدوات المفعول"
+        "title": "تدريب على أدوات المفعول",
+        "section": "الأزمنة"
     },
     {
         "file": "تدريب ثان على أدوات المفعول.html",
-        "title": "تدريب ثان على أدوات المفعول"
+        "title": "تدريب ثان على أدوات المفعول",
+        "section": "الأزمنة"
     },
     {
         "file": "زمن المضارع العادة.mp4",
         "title": "زمن المضارع العادة",
-        "videoLink": "https://youtu.be/me6me1x3SuQ"
+        "videoLink": "https://youtu.be/me6me1x3SuQ",
+        "section": "الأزمنة"
     },
     {
         "file": "تدريب على الضمائر الشخصية.html",
-        "title": "تدريب على الضمائر الشخصية"
+        "title": "تدريب على الضمائر الشخصية",
+        "section": "تدريبات"
     },
     {
         "file": "تدريب على ضمير المفعول به.html",
-        "title": "تدريب على ضمير المفعول به"
+        "title": "تدريب على ضمير المفعول به",
+        "section": "تدريبات"
     },
     {
-        "file": "تدريب على النفى.html",
-        "title": "تدريب على النفي"
+        "file": "تدريب على النوى.html",
+        "title": "تدريب على النفي",
+        "section": "تدريبات"
     },
     {
         "file": "تدريب على الترجمة.html",
-        "title": "تدريب على الترجمة"
+        "title": "تدريب على الترجمة",
+        "section": "تدريبات"
     },
     {
         "file": "تدريب على أدوات المعرفة.html",
-        "title": "تدريب على أدوات المعرفة"
+        "title": "تدريب على أدوات المعرفة",
+        "section": "تدريبات"
     }
 ]
