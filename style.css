@@ -598,3 +598,31 @@ footer{
     color:#ffffff;
 
 }
+
+.practice-preview{
+
+    background:#1f6feb;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.practice-icon{
+
+    font-size:70px;
+
+    color:white;
+
+    transition:.3s;
+
+}
+
+.lesson-card:hover .practice-icon{
+
+    transform:scale(1.15);
+
+}

@@ -52,6 +52,8 @@ function getFileType(file) {
 
   if (["mp4", "webm", "ogg"].includes(extension)) return "video";
 
+  if (extension === "html") return "practice";
+
   return "unknown";
 }
 
@@ -105,6 +107,24 @@ function renderLessons(list) {
   list.forEach((lesson, index) => {
     const type = getFileType(lesson.file);
 
+    let typeText = "";
+
+    switch (type) {
+      case "video":
+        typeText = "🎥 فيديو";
+        break;
+
+      case "image":
+        typeText = "🖼 صورة";
+        break;
+
+      case "practice":
+        typeText = "💻 تدريب";
+        break;
+
+      default:
+        typeText = "";
+    }
     const card = document.createElement("div");
 
     card.className = "lesson-card";
@@ -113,13 +133,13 @@ function renderLessons(list) {
 
     if (type === "image") {
       preview = `
-                <div class="preview">
-                    <img
-                        src="data/${lesson.file}"
-                        alt="${lesson.title}">
-                </div>
-            `;
-    } else {
+        <div class="preview">
+            <img
+                src="data/${lesson.file}"
+                alt="${lesson.title}">
+        </div>
+    `;
+    } else if (type === "video") {
       preview = `
         <div class="preview video-preview">
 
@@ -129,6 +149,16 @@ function renderLessons(list) {
 
             <div class="play-overlay">
                 ▶
+            </div>
+
+        </div>
+    `;
+    } else if (type === "practice") {
+      preview = `
+        <div class="preview practice-preview">
+
+            <div class="practice-icon">
+                💻
             </div>
 
         </div>
@@ -149,7 +179,7 @@ function renderLessons(list) {
 
                 <div class="lesson-type">
 
-                    ${type === "video" ? "🎥 فيديو" : "🖼 صورة"}
+                    ${typeText}
 
                 </div>
 
@@ -160,7 +190,11 @@ function renderLessons(list) {
     card.addEventListener("click", () => {
       currentIndex = index;
 
-      openLesson(list[index]);
+      if (type === "practice") {
+        window.open(`data/practices/${lesson.file}`, "_blank");
+      } else {
+        openLesson(lesson);
+      }
     });
 
     lessonContainer.appendChild(card);
