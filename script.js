@@ -23,7 +23,7 @@ let currentIndex = -1;
 
 async function loadLessons() {
   try {
-    const response = await fetch("lessons.json");
+    const response = await fetch(`lessons.json?v=${Date.now()}`);
 
     lessons = await response.json();
 
