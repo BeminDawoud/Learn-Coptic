@@ -64,6 +64,38 @@ function getTitle(file) {
 }
 
 /*==================================================
+    Get YouTube ID
+==================================================*/
+
+function getYouTubeID(url) {
+  if (!url) return "";
+
+  if (url.includes("youtu.be/")) {
+    return url.split("youtu.be/")[1].split("?")[0];
+  }
+
+  if (url.includes("/shorts/")) {
+    return url.split("/shorts/")[1].split("?")[0];
+  }
+
+  if (url.includes("watch?v=")) {
+    return url.split("watch?v=")[1].split("&")[0];
+  }
+
+  return "";
+}
+
+/*==================================================
+    Get YouTube Thumbnail
+==================================================*/
+
+function getThumbnail(url) {
+  const id = getYouTubeID(url);
+
+  return `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
+}
+
+/*==================================================
     Create Cards
 ==================================================*/
 
@@ -91,7 +123,11 @@ function renderLessons(list) {
       preview = `
         <div class="preview video-preview">
 
-            <div class="play-icon">
+            <img
+                src="${getThumbnail(lesson.videoLink)}"
+                alt="${lesson.title}">
+
+            <div class="play-overlay">
                 ▶
             </div>
 
