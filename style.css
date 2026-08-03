@@ -561,3 +561,40 @@ footer{
     transform:scale(1.08);
 
 }
+
+.author{
+
+    margin-top:10px;
+
+    font-size:1rem;
+
+    color:#d8c38a;
+
+    font-weight:500;
+
+    letter-spacing:.3px;
+
+}
+
+.author strong{
+
+    color:#ffffff;
+
+    font-weight:700;
+
+}
+.developer{
+
+    margin-top:10px;
+
+    font-size:.9rem;
+
+    color:#bdbdbd;
+
+}
+
+.developer strong{
+
+    color:#ffffff;
+
+}
