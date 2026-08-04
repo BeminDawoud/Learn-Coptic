@@ -224,10 +224,20 @@ function renderLessons(list) {
 
     /* Give the FIRST lesson of every section an id */
 
+    /* Create a section title before the first lesson */
+
     if (!renderedSections.includes(lesson.section)) {
       renderedSections.push(lesson.section);
 
-      card.id = sectionToId(lesson.section);
+      const heading = document.createElement("div");
+
+      heading.className = "section-title";
+
+      heading.id = sectionToId(lesson.section);
+
+      heading.textContent = lesson.section;
+
+      lessonContainer.appendChild(heading);
     }
 
     let preview = "";

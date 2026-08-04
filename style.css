@@ -839,29 +839,25 @@ footer{
 
 .section-title {
 
-    width: 100%;
+    grid-column: 1 / -1;
 
-    display: block;
+    margin: 40px 0 20px;
 
-    margin: 50px 0 25px;
-
-    padding: 15px 20px;
+    padding: 14px 20px;
 
     background: #00695c;
 
     color: white;
 
-    border-radius: 12px;
-
-    font-size: 28px;
+    font-size: 26px;
 
     font-weight: bold;
 
     text-align: center;
 
-    box-sizing: border-box;
+    border-radius: 12px;
 
-    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    box-shadow: 0 4px 10px rgba(0,0,0,.15);
 
 }
 
