@@ -833,21 +833,35 @@ footer{
     SECTION TITLES
 ==================================================*/
 
-.section-title{
+/*==================================================
+    SECTION HEADER
+==================================================*/
 
-    font-size:32px;
+.section-title {
 
-    font-weight:bold;
+    width: 100%;
 
-    margin-top:50px;
+    display: block;
 
-    margin-bottom:25px;
+    margin: 50px 0 25px;
 
-    color:#00695c;
+    padding: 15px 20px;
 
-    border-bottom:3px solid #00695c;
+    background: #00695c;
 
-    padding-bottom:10px;
+    color: white;
+
+    border-radius: 12px;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
 
 }
 
